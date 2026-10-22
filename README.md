@@ -6,6 +6,6 @@ My personal developer portfolio: a single HTML page with an interactive 3D mecha
 
 - Plain HTML, CSS and JavaScript; Three.js loaded from a CDN for the hero
 - Responsive from 360px phones up, keyboard accessible, respects reduced motion
-- Pauses the 3D scene when it is off screen, and renders only when something changes
+- Pauses the 3D scene when it is off screen or the tab is hidden
 
 Built by [Praveen Sinwar](https://github.com/cryoviper).
