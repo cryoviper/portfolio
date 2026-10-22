@@ -53,7 +53,8 @@ a{color:inherit}
 .nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
 .logo{display:inline-flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--mono);font-size:14px;min-height:44px}
 .logo b{display:grid;place-items:center;width:30px;height:30px;border-radius:8px;border:1px solid var(--line-2);font-weight:600;color:var(--accent)}
-.logo span{color:var(--mute)}
+.logo span{color:var(--mute);white-space:nowrap}
+.nav ul a,.gh{white-space:nowrap}
 .nav ul{display:flex;gap:2px;list-style:none;margin:0;padding:0}
 .nav ul a{display:inline-flex;align-items:center;min-height:44px;padding:0 12px;font-family:var(--mono);font-size:13px;color:var(--mute);text-decoration:none;border-radius:8px}
 .nav ul a:hover,.nav ul a.cur{color:var(--ink)}
@@ -195,6 +196,7 @@ footer a{text-decoration:none;min-height:32px;display:inline-flex;align-items:ce
 footer a:hover{color:var(--ink)}
 
 @media (max-width:960px){
+  .logo span{display:none}
   .hero-grid{grid-template-columns:1fr}
   .desk{order:2}
   .about{grid-template-columns:1fr}
